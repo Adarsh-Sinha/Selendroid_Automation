@@ -4,7 +4,7 @@
 
 #iOS real device has been used with iPhone 6 with iOS version 12.4.6 with Xcode 11
 
-Framework used : Appium
+Framework used : Appium , Selenium
 Type fo fraemwork : Data-driver [ Data accepting from CSV file ]
 Programming language used : Python 3.9
 Automation covering devices : Android emulator , iOS real device
