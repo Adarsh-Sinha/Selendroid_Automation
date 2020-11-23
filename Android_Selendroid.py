@@ -68,7 +68,7 @@ class Selendroid:
 
 
     def teardown(self):
-        """"Close the application and quit the appium automation"""
+        """Close the application and quit the appium automation"""
         self.driver.quit()
 
 """Trigger automation by calling the class"""
