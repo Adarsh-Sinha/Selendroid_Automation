@@ -75,7 +75,7 @@ class Setup:
         self.driver.find_element_by_xpath('//*[@id="screenshotContainer"]/div/div/div/div/div/div[24]').send_keys("123")
 
     def teardown(self):
-        """"Close the application and quit the appium automation"""
+        """Close the application and quit the appium automation"""
         self.driver.quit()
 
     """Trigger automation by calling the class"""
