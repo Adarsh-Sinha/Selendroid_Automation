@@ -6,7 +6,7 @@ import xlrd
 class Setup:
     """"Setup class which opens the UI of the application on the iOS emulator"""
 
-    def __init__(self):
+    def __init__(self): #iOS real device setup on Xcode 11
         self.driver = webdriver.Remote(
             command_executor='http://127.0.0.1:4723/wd/hub',
             desired_capabilities={
