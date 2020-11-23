@@ -6,7 +6,7 @@ import xlrd
 class Selendroid:
     """"Setup class which opens the UI of the application on the Android emulator"""
 
-    def __init__(self):
+    def __init__(self): #Android emulatior configuration
         self.driver = webdriver.Remote(
             command_executor='http://127.0.0.1:4723/wd/hub',
             desired_capabilities={
